@@ -13,7 +13,7 @@ has_many comments
 
 ### Post
 title:string [present]
-description:text [present]
+content:text [present]
 post_url:string [present, unique]
 user_id: integer [present, unique, foreign_key]
 id:integer
