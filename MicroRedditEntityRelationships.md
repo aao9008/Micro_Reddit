@@ -32,4 +32,4 @@ created_at:datetime
 updated_at:datetime
 
 belongs_to user
-belongs_to pin
+belongs_to post
